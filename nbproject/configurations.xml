@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="94">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>bessel.h</itemPath>
+      <itemPath>data.h</itemPath>
+      <itemPath>fw.h</itemPath>
+      <itemPath>utils.h</itemPath>
+      <itemPath>vmf-distribution.h</itemPath>
+      <itemPath>vmf-est-inf.h</itemPath>
+      <itemPath>vmf-model.h</itemPath>
+      <itemPath>vmf.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>bessel.cpp</itemPath>
+      <itemPath>data.cpp</itemPath>
+      <itemPath>fctm-model.cpp</itemPath>
+      <itemPath>fw.cpp</itemPath>
+      <itemPath>../../Dropbox/Machine Learning/Chien/VMFCTM/newbessel.cpp</itemPath>
+      <itemPath>utils.cpp</itemPath>
+      <itemPath>vmf-distribution.cpp</itemPath>
+      <itemPath>vmf-est-inf.cpp</itemPath>
+      <itemPath>vmf-model.cpp</itemPath>
+      <itemPath>vmf-run.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="../../Dropbox/Machine Learning/Chien/VMFCTM/newbessel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="bessel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="bessel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="data.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="data.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="fctm-model.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="fw.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="fw.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="utils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="vmf-distribution.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vmf-distribution.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="vmf-est-inf.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vmf-est-inf.h" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vmf-model.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vmf-model.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="vmf-run.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vmf.h" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="../../Dropbox/Machine Learning/Chien/VMFCTM/newbessel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="bessel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="bessel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="data.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="data.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="fctm-model.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="fw.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="fw.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="utils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="vmf-distribution.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vmf-distribution.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="vmf-est-inf.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vmf-est-inf.h" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vmf-model.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vmf-model.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="vmf-run.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vmf.h" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
